@@ -25,7 +25,7 @@ module Hashie
       out
     end
 
-    # The C geneartor for the json gem doesn't like mashies
+    # The C generator for the json gem doesn't like mashies
     def to_json(*args)
       to_hash.to_json(*args)
     end
